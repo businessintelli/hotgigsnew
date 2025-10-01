@@ -1,0 +1,12 @@
+nohup: ignoring input
+
+> hotgigs-enhanced-frontend@0.0.0 dev /home/ubuntu/hotgigs-enhanced-frontend
+> vite
+
+
+  VITE v6.3.5  ready in 166 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://169.254.0.21:5174/
+  ➜  Network: http://172.17.0.1:5174/
+ ELIFECYCLE  Command failed.
