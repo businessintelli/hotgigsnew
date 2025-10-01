@@ -200,7 +200,6 @@ const Homepage = ({ userType, setUserType }) => {
           </div>
         </div>
       </div>
-      {showInterviewModal && <AIInterviewViewer candidate={{}} onClose={() => setShowInterviewModal(false)} />}
     </div>
   );
 };
@@ -342,7 +341,6 @@ const JobsPage = ({ userType }) => {
           ))}
         </div>
       </div>
-      {showInterviewModal && <AIInterviewViewer candidate={{}} onClose={() => setShowInterviewModal(false)} />}
     </div>
   );
 };
@@ -485,7 +483,6 @@ const CandidateDashboard = () => {
           </div>
         </div>
       </div>
-      {showInterviewModal && <AIInterviewViewer candidate={{}} onClose={() => setShowInterviewModal(false)} />}
     </div>
   );
 };
@@ -674,7 +671,6 @@ const RecruiterDashboard = () => {
           </Card>
         </div>
       </div>
-      {showInterviewModal && <AIInterviewViewer candidate={{}} onClose={() => setShowInterviewModal(false)} />}
     </div>
   );
 };
